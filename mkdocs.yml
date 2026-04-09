@@ -5,3 +5,9 @@ nav:
   - Home: index.md
   - About: about.md
   - Contact: contact.md
+
+theme: 
+  name: material
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
