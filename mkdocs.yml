@@ -9,9 +9,13 @@ theme:
   name: material
   features:
     - navigation.tabs
+  custom_dir: overrides  
 
 extra:
   version:
     provider: mike    
   social:
   - icon: fontawesome/brands/github
+
+extra_css:
+  - assets/stylesheets/custom.css
