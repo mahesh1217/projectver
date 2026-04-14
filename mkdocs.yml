@@ -8,8 +8,13 @@ nav:
 theme:
   name: material
   features:
-    - navigation.tabs
-  custom_dir: overrides  
+    - navigation.tabs        # top tabs (Home, Getting started, etc.)
+    - navigation.sections    # sidebar sections
+    - navigation.expand
+    - toc.integrate          # right-side TOC
+    - search.highlight
+    - content.code.copy
+  # custom_dir: overrides  
 
 extra:
   version:
